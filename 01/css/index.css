@@ -1,1 +1,6 @@
 @import url(./common.css);
+
+ul {
+  width: 66%;
+  margin: 150px auto;
+}

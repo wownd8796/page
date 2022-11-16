@@ -116,8 +116,8 @@ header > div > nav > div > a {
 }
 /*nav기반으로 위치 잡게 할거임 */
 
-header > div > h1 {
-}
+/* header > div > h1 {
+} */
 header > div > h1 > a {
   /* font-family: */
   text-transform: uppercase; /*대문자로 바꿔줌*/
@@ -179,6 +179,17 @@ header > div > div.lang > ul > li {
   transform: translateY(50%);
   display: inline-block;
   text-align: center;
+}
+.mainbox button > a {
+  color: #fff;
+}
+
+.content1 {
+  display: flex;
+}
+.content1 div {
+  text-align: center;
+  justify-content: center;
 }
 
 /* footer */
