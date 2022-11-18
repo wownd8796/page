@@ -75,6 +75,7 @@ header > div > nav > button > span {
   border-top: 2px solid #fff;
   transition: 0.3s;
 }
+
 header > div > nav > button > span:nth-child(1) {
   top: 0;
 }
@@ -150,46 +151,6 @@ header > div > div.lang > ul {
 header > div > div.lang > ul > li {
   border-bottom: 1px solid #ddd;
   padding: 6px 20px;
-}
-.container {
-  width: 100%;
-  height: 900px;
-  background-image: url(../img/img_visual.jpg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.mainbox {
-  display: flex;
-  flex-direction: column;
-}
-.mainbox > p {
-  font-size: 80px;
-  color: #f5f4a5;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.mainbox > button {
-  width: 200px;
-  height: 50px;
-  margin: auto;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #fff;
-  transform: translateY(50%);
-  display: inline-block;
-  text-align: center;
-}
-.mainbox button > a {
-  color: #fff;
-}
-
-.content1 {
-  display: flex;
-}
-.content1 div {
-  text-align: center;
-  justify-content: center;
 }
 
 /* footer */
